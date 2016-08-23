@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+  		<title>JF</title>
+  		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  		<meta name="description" content="" />
+  		<meta name="keywords" content="" />
+  		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+  		<script src="/js/jquery.min.js"></script>
+  		<script src="/js/jquery.poptrox.min.js"></script>
+  		<script src="/js/skel.min.js"></script>
+  		<script src="/js/init.js"></script>
+  		<noscript>
+  			<link rel="stylesheet" href="/css/skel.css" />
+  			<link rel="stylesheet" href="/css/style.css" />
+  			<link rel="stylesheet" href="/css/style-xlarge.css" />
+  		</noscript>
+  		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
+  	</head>
+
+	<body id="top">
+
+      <header id="header">
+          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <h1><strong><a href="/">Jiayun Fang</a></strong></h1>
+          <h1>engineer and feminist</h1>
+          <br />
+          <br />
+          <br />
+          <nav class="global">
+          <!-- TODO: Change header, how do we want to structure the website tree? -->
+
+          <a {% if page.url == "/" %} class="current" {% endif %} href="/">about me</a> <br />
+          <a {% if page.url == "/photography/" %} class="current" {% endif %} href="/photography/">photography</a> <br />
+          <a {% if page.url == "/projects/" %} class="current" {% endif %} href="/projects/">projects</a> <br />
+          <a {% if page.url == "/resume/" %} class="current" {% endif %} href="/resume">resume</a> <br />
+          <a {% if page.url == "/travel/" %} class="current" {% endif %} href="/travel/">travel</a> <br />
+          </nav>
+
+      </header>
