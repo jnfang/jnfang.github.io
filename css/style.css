@@ -7,6 +7,47 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Resume */
+.resume {
+	color:#373737;
+	line-height: 1.3em;
+
+}
+
+.resume h2 {
+	color:#000000;
+}
+
+.resume h4{
+	line-height: 1em;
+	margin-bottom: 0.25em;
+	margin-top:1em;
+
+}
+
+.resume h5 {
+	display: inline;
+}
+
+.resume p {
+	margin-bottom: 0em;
+}
+
+.blockout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+
+.blockout-gray{
+    border-left-color: #777;
+}
+.blockout-gray h4 {
+    color: #777;
+}
+
 /* Basic */
 
 	body {
@@ -27,7 +68,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #373737;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -40,7 +81,7 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 		color: #49bf9d;
 		text-decoration: none;
 	}
@@ -174,6 +215,7 @@
     .f-right {
         float: right;
     }
+
 
 /* Section/Article */
 
@@ -971,13 +1013,17 @@
 			width: 6.25em;
 		}
 
+		.current {
+			color: #ffffff;
+		}
+
 /* Footer */
 
 	#footer {
 		bottom: 0;
 		left: 0;
 		padding: 0 4em 6em 0;
-		position: fixed;
+		position: relative;
 		text-align: right;
 		width: 35%;
 	}
