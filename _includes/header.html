@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   	<head>
-  		<title>JF</title>
+  		<title>Jiayun Fang</title>
   		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
   		<meta name="description" content="" />
   		<meta name="keywords" content="" />
@@ -21,7 +21,7 @@
 	<body id="top">
 
       <header id="header">
-          <a href="#" class="image avatar"><img src="/images/avatar.jpg" alt="" /></a>
+          <a href="#" class="image avatar"><img src="/images/spotlight.png" alt="" /></a>
           <h1><strong><a href="/">Jiayun Fang</a></strong></h1>
           <h1>engineer and feminist</h1>
           <br />
@@ -33,8 +33,13 @@
           <a {% if page.url == "/" %} class="current" {% endif %} href="/">about me</a> <br />
           <a {% if page.url == "/photography/" %} class="current" {% endif %} href="/photography/">photography</a> <br />
           <a {% if page.url == "/projects/" %} class="current" {% endif %} href="/projects/">projects</a> <br />
-          <a {% if page.url == "/resume/" %} class="current" {% endif %} href="/resume">resume</a> <br />
+          <a {% if page.url == "/resume.html" %} class="current" {% endif %} href="/resume">resume</a> <br />
+          <a {% if page.url == "/tech/" %} class="current" {% endif %} href="/tech/">tech</a> <br />
           <a {% if page.url == "/travel/" %} class="current" {% endif %} href="/travel/">travel</a> <br />
+            <!-- {% assign url = page.url|remove:'index.html' %}
+            {% for link in page.navigation %}
+               <a {% if page.url == link.url %} class="current" {% endif %} href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+            {% endfor %} -->
           </nav>
 
       </header>

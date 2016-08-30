@@ -1,0 +1,26 @@
+---
+layout: post
+title: Tracking TB at SES
+location: Lima, Peru
+date: 2015-01-01T12:00:00.000Z
+categories: projects
+---
+
+<img src="/images/projects_fulls/ses.png" class="fit image"> Tech in the World is a fellowship program during Harvard's January winter break in which a team of five software engineers travel to a nonprofit partner in a developing country to prototype a needed application. I was a part of the January 2015 team that traveled to Lima, Peru to work on an app that could track tuberculosis medication adherence for Partners In Health's Peru branch Socios en Salud. 
+
+Tools: *Android, Microsft Sql Server, SOAP Protocol*   
+Code: [GitHub](https://github.com/ankitvgupta/eDOTS)
+
+<img src="/images/projects_fulls/titw-patient-flow.png" class="fit image">
+
+Some features of the app included: enroll new patient or lookup patients in the existing database, log new patient visit, send SMS to all patients who had missed an appointment. I focused on the following components of this app:
+
+1. Offline storage - If the app does not have data or WiFi, any requests to log a new visit or new patient are stored offline until internet connection is regained. Also any recently looked up patients are stored offline so their visit info can be accessed while in field
+2. Task creation - SES had already set up a database on MS SQL Server and to make certain requests. I built async tasks using the SOAP protocol that enabled community health workers to login and to get patient information when making a visit request
+3. SMS reminder - SES requested a feature that would allow someone in the office to send an SMS to all patients who had missed their appointment that day. I built this using visit data and patient data from their database
+
+<img src="/images/projects_fulls/titw-new-visit.png" class="left image thumbnail">
+
+For more on SES, check out their website at <https://sociosensalud.org.pe/>
+
+For more on my time there, check out my blog post on the Tech in the World blog [here](http://blog.techintheworld.org/post/109485840245/second-week-in-peru).

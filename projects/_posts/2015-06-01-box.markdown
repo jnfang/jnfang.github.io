@@ -1,0 +1,18 @@
+---
+layout: post
+title: Reverse Fetch at Box
+location: Los Altos, CA
+date: 2015-06-01T12:00:00.000Z
+categories: projects
+---
+
+<img src="/images/projects_fulls/box-logo.jpg" class="fit image"> As a Software Engineer Intern on the Messaging subteam of the Data and Compute team, I worked on adding a feature called reverse fetch to the [asynchbase library](https://github.com/OpenTSDB/asynchbase) library that is used to make scans on the HBase messagebus. After adding the feature, I also started on its integration into the Box backend in which it is used to fetch the most recent events in a particular user's folders. 
+
+Tools: *Java, Scala*  
+Code: [Github](https://github.com/jnfang/asynchbase), [Updated merge into source](https://github.com/OpenTSDB/asynchbase/commit/f6a8ccb7e55ed9bc0aad265345da4c679e750055)  
+Deck: [Box intern fair presentation](https://app.box.com/s/1f2mu6ymyg7vacrkb9angbt8nvvl66sq)
+
+Apache HBase (named from Hadoop database) is an open source, scalable, distributed key-value store modeled after [Google's Bigtable](http://research.google.com/archive/bigtable.html). The asynchbase library is an open source library that performs asynchronous functions on the data base. All entries are ordered chronologically in HBase, so a forward scan means, given a starting time and ending time, give all data in the database in between those two times, and reverse fetch was the opposite. While the native client for HBase supported reverse scans, the asynchbase library used by Box did not have this functionality yet, and my summer project was to provide this functionality. As my first foray into distributed systems and open source, I learned a lot about the challenges of building a feature for a fault-tolerant distributed system and publishing clean, concise code for use by anyone. 
+
+
+For more about my first days at Box, check out [my blog post](https://blog.box.com/blog/meet-the-interns-jn-fang/) on the intern website 

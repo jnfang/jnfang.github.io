@@ -19,3 +19,20 @@ linkedin_username:    jnfang  # Replace this with your LinkedIn username
 markdown: kramdown
 
 gems: [rmagick, exifr]
+
+
+navigation:
+- text: About
+  url: /index.html
+- text: Resume
+  title: resume
+  url: /resume.html
+- text: Projects
+  title: projects
+  url: /projects/
+- text: Travel
+  title: travel
+  url: /travel/
+- text: Photography
+  title: photography
+  url: /photography/

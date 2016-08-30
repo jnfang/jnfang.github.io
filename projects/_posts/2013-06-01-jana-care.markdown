@@ -1,0 +1,21 @@
+---
+layout: post
+title: Habits App for Diabetics
+location: Bangalore, India
+date: 2013-06-01T12:00:00.000Z
+categories: projects
+---
+
+<img src="/images/projects_fulls/habits.png" class="fit image"> In the summer of 2013, I spent three months working at Jana Care, a medical device startup, in Bangalore, India. They were working on a web and Android app called Habits for diabetics to track their glucose levels, food intake, and exercise. This was my first technical internship. I owned several projects both on the main Python application and on the Android app. A brief description of each project in chronological order is below. Much of the code is proprietary but I have included some code for a plugin I created that became open sourced.  
+Tools: *Django, Python, jQuery, JavaScript, Android*
+
+1. Spell checker of food input - On the web app, as user typed in their food item, a real-time prediction dropdown would show possible foods, by order of most to least likely in terms of number of swaps. 
+2. Plugin to enable client side cropping - Used HTML5 Canvas to create a jQuery plugin that enables cropping of a pic on the client side, so that a large image does not have to be sent to the server or stored on it. Complete [code on GitHub]
+3. Encryption and Decryption - Encryption on the Python web app and decryption on the Android app
+4. Prototype Android app - Modified ODK Collect to create Android app for community health workers to triage diabetes and iron deficiency patients. I worked with one other intern on this and followed the protocol as prescribed by the Public Health Foundation of India. 
+
+For more about the company Jana Care, visit their website at <http://www.janacare.com/>  
+For a snapshot of my time there, check out [my blog post] for the Office of Career Services which supported my grant for the summer
+
+[code on GitHub]: https://github.com/jnfang/jfcrop
+[my blog post]: http://ocsharvard.tumblr.com/post/67754142056/jiayun-fang-16-jana-care-solutions-bangalore

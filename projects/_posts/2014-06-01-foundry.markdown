@@ -1,0 +1,20 @@
+---
+layout: post
+title: Civic Tech at Microsoft Foundry
+location: Boston, MA
+date: 2014-06-01T12:00:00.000Z
+categories: projects
+---
+
+<img src="/images/projects_fulls/foundry.png" class="fit image"> From May to August of 2014, I worked as a Software Developer Intern at the Microsoft Foundry program in the Boston Microsoft New England Research and Development (NERD) center. My team and I worked on a civic tech app called Engage Boston that focused on promoting community engagement and civic service in Boston. The app allowed users to view public events from all over Boston, check in at them, and build a verified civic resume that they could use if becoming a volunteer or running for office. 
+
+The Foundry program was only in its third year and consisted of 40 total interns divided up into 8 teams, with each team having one designer and four engineer interns. For the entirety of the 10 weeks, we took a Windows Phone app from ideation to publishing. Below is a list of what I owned in the app:  
+Tools: *C#, Windows Phone, Agile development, Git* 
+
+1. Gamification of event attendance - badge system to reward users who vote in an election, attend a certain number of events from a certain feed (i.e. Boston Public Library), or share their events with other users
+2. Generation of civic resume - from user's event history and badges, generate an HTML, downloadable civic resume that highlights feeds they want to record
+3. Individual event page - convert RSS, iCal, or other event info into Events in the database and then displaying relevant and correct info for each event on their page
+4. Syncing events with Windows Calendar - user saves events they want to attend in the future and they get added (with notifications, location, description) to their default calendar  
+ 
+
+For more about the Microsoft Foundry program, visit [their website](http://microsoftnewengland.com/students).
