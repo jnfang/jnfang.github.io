@@ -31,15 +31,11 @@
           <!-- TODO: Change header, how do we want to structure the website tree? -->
 
           <a {% if page.url == "/" %} class="current" {% endif %} href="/">about me</a> <br />
-          <a {% if page.url == "/photography/" %} class="current" {% endif %} href="/photography/">photography</a> <br />
+          <!-- <a {% if page.url == "/photography/" %} class="current" {% endif %} href="/photography/">photography</a> <br /> -->
           <a {% if page.url == "/projects/" %} class="current" {% endif %} href="/projects/">projects</a> <br />
           <a {% if page.url == "/resume.html" %} class="current" {% endif %} href="/resume">resume</a> <br />
           <a {% if page.url == "/tech/" %} class="current" {% endif %} href="/tech/">tech</a> <br />
           <a {% if page.url == "/travel/" %} class="current" {% endif %} href="/travel/">travel</a> <br />
-            <!-- {% assign url = page.url|remove:'index.html' %}
-            {% for link in page.navigation %}
-               <a {% if page.url == link.url %} class="current" {% endif %} href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
-            {% endfor %} -->
           </nav>
 
       </header>

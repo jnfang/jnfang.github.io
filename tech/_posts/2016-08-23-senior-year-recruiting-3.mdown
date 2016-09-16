@@ -1,8 +1,0 @@
----
-layout: post
-categories: tech
-title: Senior Year Recruiting (3/3)
-date: 2016-08-23T12:00:00.000Z
----
-
-The last post on how I got through full-time recruiting for software engineer. The focus of this post is on what happens after the interviews have completed. 

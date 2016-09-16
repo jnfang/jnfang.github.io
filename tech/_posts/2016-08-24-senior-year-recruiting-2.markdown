@@ -5,7 +5,7 @@ title: Senior Year Recruiting (2/3)
 date: 2016-08-24T12:00:00.000Z
 ---
 
-Second in a series of three posts about my learnings from the tech recruiting process. This specifically covers how to prep for interviews. 
+Second in a series of three posts about my learnings from the tech recruiting process. This specifically covers everything from how to set up an interview to how to prep to what questions to ask during the interview. 
 
 ### Foot in the door
 For larger companies, I often got contacted or I reached out to recruiters that I already kenw because they have been in touch before.  I also asked for referrals from friends or alums who had worked at those companies. For smaller companies, I used referrals, filled out jobs forms on their website, or cold messaged them through LinkedIn. Employees often get bonuses from a successful referral, so don't be afraid to ask!
@@ -56,12 +56,12 @@ At the end of every interview, the interviewer would ask if I had any questions.
 | How does your company support PoC and female engineers?  | Is your company self aware about its culture/environment and how actively are you making change?  |
 
 ### What I did after the interview
-
+If during the interview I had received the interviewer's email (shared a GoogleDoc or link), then I often sent them a quick reply thanking them for their time and inviting them to give me feedback. If I heard the decision relatively quickly, I sent follow up emails to interviewers to ask for feedback. In order for feedback to be acted upon, it should be prompt, specific, and actionable. Companies that value feedback will have trained employees and especially managers on how to provide the best feedback that can promote personal growth. Constructive feedback on things you could improve could be very helpful as targetted areas for your growth but I steered clear of any companies that give feedback based on personality fit or inherent traits. One of Facebook's motto's is "feedback is a gift" and I can't agree more. 
 
 ### What I wish I had done
 I wish I had spent more time talking to each of the recruiters in the process. The movement of an engineer through each stage is very opaque and getting to know the recruiters and telling them about where my head is at would have reduced unnecessary stress that resulted from trying to juggle all of these interviews. I also wish I had withdrawn earlier from the process for some of the companies that, through talking to their engineers in interviews, I realized the company was not a good fit for me. 
 
-Read the [next section](2016/08/23/senior-year-recruiting-3.html) for info about how to navigate the offer process. 
+Read the [next section]({% post_url 2016-08-23-senior-year-recruiting-3 %}) for info about how to navigate the offer process. 
 
 
 
