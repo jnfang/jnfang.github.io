@@ -16,8 +16,29 @@ layout: default
         <section class="single-post">
             {{ content }}
         </section>
-        
-        
+        <br>
+        <section class="prev-next-post">
+            <div class="PageNavigation">
+                <!-- Older -->
+              {% if page.previous.url and page.previous.categories == page.categories %}
+                <div style="text-align: left; display:inline;">
+                    <a class="prev icon fa-angle-left" href="{{page.previous.url}}">
+                        <span class="label">Previous Post</span>
+                    </a>
+                    <a href="{{page.previous.url}}">&nbsp;{{page.previous.title}}</a>
+                </div>
+              {% endif %}
+
+              {% if page.next.url and page.next.categories == page.categories %}
+                <div style="float: right; display: inline-table;">
+                    <a href="{{page.next.url}}" >{{page.next.title}} &nbsp;</a>
+                    <a class="next icon fa-angle-right" href="{{page.next.url}}">
+                        <span class="label">Next Post</span>
+                    </a>
+                </div>
+              {% endif %}
+            </div>
+        </section>
     </article>
 
 </div>

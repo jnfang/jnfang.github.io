@@ -1001,6 +1001,14 @@
 		width: 35%;
 	}
 
+	@media (max-width: 991px) {
+
+          #header {
+	        background-image: none;
+	    }
+
+	}
+
 		#header strong, #header b {
 			color: #ffffff;
 		}
